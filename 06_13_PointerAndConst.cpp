@@ -16,8 +16,8 @@ int main(void){
     int value2 = 8;
     //ptr = &value2; // 컴파일 에러: 주소가 Const이므로 주소를 바꿀 수 없음
 
-    int value2 = 10;
-    const int *const ptr2 = &value2; // 주소도 못 바꾸고 주소의 Value도 못 바꿈
+    int value3 = 10;
+    const int *const ptr2 = &value3; // 주소도 못 바꾸고 주소의 Value도 못 바꿈
 
     return 0;
 }
