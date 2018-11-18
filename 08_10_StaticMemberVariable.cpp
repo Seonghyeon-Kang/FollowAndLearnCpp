@@ -10,7 +10,7 @@ public:
     static constexpr int ct_value = 1;
 
 public:
-    static int getValue(){
+    int getValue(){
         return s_value;
     }
 };
