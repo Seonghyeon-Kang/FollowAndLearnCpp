@@ -16,7 +16,7 @@ int main(){
     // Composition Relationship
     Lecture lec1("Introduction to Computer Programming");
     lec1.assignTeacher(pTeacher1); // 포인터를 사용하여 Aggregation Relationship으로 변경
-    lec1.registerStudent(pStd1); 
+    lec1.registerStudent(pStd1);
     lec1.registerStudent(pStd2);
     lec1.registerStudent(pStd3);
 
@@ -34,6 +34,13 @@ int main(){
         cout << lec1 << endl;
         cout << lec2 << endl;
     }
+
+    delete pTeacher1;
+    delete pTeacher2;
+
+    delete pStd1;
+    delete pStd2;
+    delete pStd3;
 
     return 0;
 }
