@@ -1,3 +1,8 @@
+/*
+    output operator(출력함수)는 friend 함수이므로 직접 overriding을 할 수 없음
+    대신 맴버함수를 출력함수가 호출하도록 위임함으로써 다형성을 유지할 수 있음
+*/
+
 #include <iostream>
 
 class Base
